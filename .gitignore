@@ -394,6 +394,14 @@ $RECYCLE.BIN/
 .env.test.local
 .env.production.local
 
+# ASP.NET Core appsettings files (keep only appsettings.json, exclude environment-specific ones)
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Local.json
+appsettings.*.json
+!appsettings.json
+
 # Logs
 logs/
 *.log
